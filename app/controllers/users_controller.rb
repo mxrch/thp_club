@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   end
 
   def show
-    unless current_user && @user.id == current_user.id
+    unless current_user
       render :file => "#{Rails.root}/public/403.html"
     end
   end
