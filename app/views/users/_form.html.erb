@@ -1,0 +1,28 @@
+<%= bootstrap_form_with(model: user, local: true) do |form| %>
+  <div id="user_form">
+      <div class="field">
+        <%= form.text_field :first_name, placeholder: "Prénom", label: "Prénom", label_class: "user_label"%>
+      </div>
+
+      <div class="field">
+        <%= form.text_field :last_name, placeholder: "Nom de famille", label: "Nom de famille", label_class: "user_label"%>
+      </div>
+
+      <div class="field">
+        <%= form.text_field :email, placeholder: "Adresse Email", label: "Adresse Email", label_class: "user_label"%>
+      </div>
+
+      <div class="field">
+        <%= form.password_field :password, placeholder: "Mot de passe", label: "Mot de passe", label_class: "user_label" %>
+      </div>
+
+      <div class="field">
+        <%= form.password_field :password_confirmation, placeholder: "Mot de passe", label: "Confirmation du mot de passe", label_class: "user_label" %>
+      </div>
+
+      <div class="actions">
+        <%= form.submit "Confirmer", class: "btn btn-success" %>
+      </div>
+      <br>
+    </div>
+<% end %>

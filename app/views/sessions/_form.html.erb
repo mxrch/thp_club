@@ -1,0 +1,15 @@
+<%= bootstrap_form_with(model: session[:user_id], local: true) do |form| %>
+  <div id="submit_form">
+    <div class="field">
+      <%= form.text_field :email, placeholder: "Adresse email", label: "Adresse email", label_class: "form_label"%>
+    </div>
+
+    <div class="field">
+      <%= form.password_field :password, placeholder: "Mot de passe", label: "Mot de passe", label_class: "form_label"%>
+    </div>
+
+    <div class="actions">
+      <%= form.submit "Se connecter", class: "btn btn-success" %>
+    </div>
+  </div>
+<% end %>

@@ -1,0 +1,18 @@
+<br>
+<div align="center"
+  <% if flash[:notice] %>
+    <div class="alert alert-success" role="alert"><%= flash[:notice] %></div>
+  <% else %>
+    <br>
+  <% end %>
+</div>
+<div align="center" style="margin-top:150px">
+  <h2 style="color:  #f1f1f1">Bienvenue sur le club de Strasbourg ! 🕺</h2>
+  <br>
+  <div id="buttons-home">
+    <%= link_to "Inscription", register_url, class: "btn btn-success" %>
+    <div style="padding-left: 10px">
+      <%= link_to "Connexion", login_url, class: "btn btn-primary" %>
+    </div>
+  </div>
+</div>
