@@ -4,8 +4,6 @@
 ## :mag: The content
 In these exercises, I had to make **a club site** where users can see other registered users, but can not modify or delete them, **except his own profile**.
 
-I also had to make tests with rspec.
-
 
 **The live version : http://mxrch-club.herokuapp.com/**
 
