@@ -1,24 +1,27 @@
-# README
+# The Hacking Project - Club
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## :mag: The content
+In these exercises, I had to make **a club site** where users can see other registered users, but can not modify or delete them, **except his own profile**.
 
-* Ruby version
+I also had to make tests with rspec.
 
-* System dependencies
 
-* Configuration
+**The live version : http://mxrch-club.herokuapp.com/**
 
-* Database creation
+**After cloning the repository, make sure to do :**
+```sh
+$ cd thp_club
+$ bundle install
+```
 
-* Database initialization
+This will install all the dependencies needed for the exercises.
 
-* How to run the test suite
+## :european_post_office: The Strasbourgeois Crew
+Done in team with @OwwllMan, @zOmegad, @Runefire32, @BrokenPirate and myself (@mxrch). :heart:
 
-* Services (job queues, cache servers, search engines, etc.)
+<hr>
 
-* Deployment instructions
+***It's an exercise from the TheHackingProject bootcamp.***
 
-* ...
+***> www.thehackingproject.org***
