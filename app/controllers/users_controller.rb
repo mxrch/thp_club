@@ -34,7 +34,7 @@ class UsersController < ApplicationController
     @user = User.new(user_params)
     if @user.save
       flash[:alert] = nil
-      redirect_to '/club', notice: "Inscription réussie !"
+      redirect_to '/login', notice: "Inscription réussie !"
     else
       render :new
     end
